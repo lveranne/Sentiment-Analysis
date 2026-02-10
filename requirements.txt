@@ -1,0 +1,11 @@
+flask
+tensorflow
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+nltk
+langdetect
+googletrans==4.0.0rc1
