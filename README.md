@@ -129,11 +129,40 @@ The following preprocessing is applied in `app.py` before prediction:
   - wordcloud
 
 ---
+## 🔧 Installation Steps
 
-### Installation
+### 1. Clone the Repository
 
-#### 1. Clone the repository
-
+```bash
 git clone https://github.com/<your-username>/Twitter-Sentiment-Analysis.git
 cd Twitter-Sentiment-Analysis
+```
 
+### 2.  Create and activate a virtual environment (recommended)
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate  # On Windows (PowerShell)
+# source .venv/bin/activate  # On macOS/Linux
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+## ▶️ Running the Project
+
+### Run the Flask app
+
+```bash
+python app.py
+```
+
+### Open this URL in your browser to use the web interface.
+
+```bash
+[python app.py](http://127.0.0.1:5000/)
+```
